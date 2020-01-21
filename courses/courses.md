@@ -9,6 +9,10 @@
 
 Below are course descriptions and links to course webpages for classes I have taught or am currently teaching.
 
+## [PGE 310 - Formation and Solution of Geosystems Engineering Problems](http://johnfoster.pge.utexas.edu/PGE310-IntroProgramming/)
+
+**Course Description**: Introduction to mathematical equations typically encountered in petroleum and geosystems engineering; methods to solve equations graphically, analytically, and with numerical methods; applications of computers to problem solving.
+
 ## [PGE 323 - Reservoir Engineering III (Simulation)](http://johnfoster.pge.utexas.edu/PGE323M-ResEngineeringIII/)
 
 **Course Description**: Mathematical equations governing fluid flow in reservoirs; numerical methods to solve the equations; numerical reservoir simulation; treatment of wells; history matching; a simulation project performed using a commercial simulator.
