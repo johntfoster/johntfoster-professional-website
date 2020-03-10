@@ -98,7 +98,7 @@ NAVIGATION_LINKS = {
         ("/courses/", "Courses"),
         ("/repos/", "Paper Repositories"),
         ("http://johntfoster.github.io/", "Personal Blog"),
-    ),
+    )
 }
 
 # Name of the theme to use.
@@ -181,7 +181,7 @@ PAGES = (
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of "source" "relative destination".
 # Default is:
-FILES_FOLDERS = {'files': 'files' }
+FILES_FOLDERS = {"files": "files"}
 # Which means copy 'files' into 'output'
 
 # A mapping of languages to file-extensions that represent that language.
@@ -192,22 +192,22 @@ FILES_FOLDERS = {'files': 'files' }
 # 'markdown' is MarkDown
 # 'html' assumes the file is html and just copies it
 COMPILERS = {
-    "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
-    "html": ('.html', '.htm'),
+    "rest": (".rst", ".txt"),
+    "markdown": (".md", ".mdown", ".markdown"),
+    "textile": (".textile",),
+    "txt2tags": (".t2t",),
+    "bbcode": (".bb",),
+    "wiki": (".wiki",),
+    "ipynb": (".ipynb",),
+    "html": (".html", ".htm"),
     # PHP files are rendered the usual way (i.e. with the full templates).
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
+    "php": (".php",),
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
-    #"pandoc": ('.md',),
+    # "pandoc": ('.md',),
 }
 
 # Create by default posts in one file format?
@@ -224,7 +224,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-LOGO_URL = '/assets/img/cockrell_school_logo_white.svg'
+LOGO_URL = "/assets/img/cockrell_school_logo_white.svg"
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
@@ -464,8 +464,8 @@ CONTENT_FOOTER_FORMATS = {
             "email": BLOG_EMAIL,
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
-            "license": LICENSE
-        }
+            "license": LICENSE,
+        },
     )
 }
 
@@ -653,7 +653,7 @@ SOCIAL_BUTTONS_CODE = """ """
 # <input type="text" name="q" maxlength="255" results="0" placeholder="Search"/>
 # </form>
 # <!-- End of custom search -->
-#""" % SITE_URL
+# """ % SITE_URL
 
 # Use content distribution networks for jquery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
@@ -765,7 +765,7 @@ USE_BUNDLES = False
 #          experience!
 
 LOGGING_HANDLERS = {
-    'stderr': {'loglevel': 'INFO', 'bubble': True},
+    "stderr": {"loglevel": "INFO", "bubble": True},
     # 'smtp': {
     #     'from_addr': 'test-errors@example.com',
     #     'recipients': ('test@example.com'),
