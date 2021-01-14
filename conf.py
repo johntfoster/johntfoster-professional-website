@@ -25,7 +25,7 @@ SITE_URL = "http://johnfoster.pge.utexas.edu/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://johntfoster.github.io/johntfoster-professional-website/"
-BLOG_EMAIL = "jfoster@austin.utexas.edu"
+BLOG_EMAIL = "john.foster@utexas.edu"
 BLOG_DESCRIPTION = "Professional website"  # (translatable)
 
 # Nikola is multilingual!
@@ -699,7 +699,7 @@ BODY_END = """
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
-UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}
