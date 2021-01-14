@@ -97,7 +97,7 @@ NAVIGATION_LINKS = {
         ("/calendar/", "Calendar"),
         ("/courses/", "Courses"),
         ("/repos/", "Paper Repositories"),
-        ("http://johntfoster.github.io/", "Personal Blog"),
+        ("/blog/", "Personal Blog"),
     )
 }
 
